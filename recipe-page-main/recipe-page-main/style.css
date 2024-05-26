@@ -1,0 +1,136 @@
+ 
+@font-face {
+    font-family: outfit;
+    src: url(/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format("ttf");
+  }
+
+ @font-face {
+    font-family: young-serif;
+    src: url(/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf) format("ttf");
+  }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+img {
+    max-width: 100%;
+    
+}
+ul,ol {
+    padding-left: 30px;
+    
+}
+
+body{
+    font-family: young-serif;
+    font-weight: 400;
+    background-color: #f3e6d8;
+    font-smooth: always;
+}
+ 
+h2{
+    font-family: young serif;
+    color: #854632;
+    letter-spacing: 0.1rem;
+}
+span {
+    color: #854632;
+    font-weight: bold;
+}
+
+p, li {
+    line-height: 1.6rem;
+    color: 	#4e4e4e
+}
+
+li{
+    margin-top: 0.5rem;
+}
+
+.container {
+    max-width: 900px;
+    margin-inline: auto; 
+    background-color:	#ffffff; 
+}
+.container div:not(first-child){
+    padding: 1.5rem;
+}
+
+.banner h1{
+    font-size: 30px;
+    font-family: young serif;
+    margin-bottom: 0.1rem;
+    color: #302d2c;
+    letter-spacing: 0.01rem;
+}
+
+.time article {
+    background-color: #fff5fa;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+}
+.time article h3 {
+color: #7b284f;
+margin-bottom: 1rem ;
+letter-spacing: 0.01rem;
+}
+
+.ingredients ul li::marker {
+    color: #854632;
+    font-weight: bold;
+}
+
+.instructions {
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.instructions ol li::marker {
+    color: #854632;
+    font-weight: bold;
+}
+
+.nutrition p {
+    margin-top: 1rem;
+}
+
+.nutrition ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #d8d8d8;
+    padding: 0.5rem 0;
+}
+
+.nutrition ul li:last-child {
+border-bottom: none;
+}
+
+.attribution{
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px) {
+    .container {margin: 5rem auto 0;
+        padding: 2rem;
+        border-radius: 1rem;
+
+        img {
+            border-radius: 1rem;
+        }
+}
+}
